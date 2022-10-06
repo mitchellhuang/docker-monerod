@@ -36,7 +36,7 @@ version: "3"
 
 services:
   monerod:
-    image: lchaia/monerod:v0.17.3.2 # or latest and use watchtower to keep up to date
+    image: lchaia/monerod:v0.18.1.2 # or latest and use watchtower to keep up to date
     container_name: monerod
     volumes:
       - /home/my-user/.bitmonero:/home/monero/.bitmonero
