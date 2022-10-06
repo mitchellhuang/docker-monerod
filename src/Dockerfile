@@ -1,5 +1,5 @@
 ARG MONERO_BRANCH=v0.18.1.2
-ARG UBUNTU_VERSION=20.04
+ARG UBUNTU_VERSION=22.04
 
 # Use Ubuntu for the build image base
 FROM ubuntu:${UBUNTU_VERSION} as build
